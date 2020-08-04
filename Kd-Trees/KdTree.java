@@ -17,6 +17,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class KdTree {
     private static class Node {
+	// class variables
         private final Point2D p;
         private final RectHV rect;
         private Node left;
